@@ -52,6 +52,7 @@ document.getElementById('nDonetBtn').addEventListener('click', function (event) 
   document.getElementById('noakhaliModal').checked = true;
 
   const noakhaliAmountShow = document.getElementById('noakhaliAmount');
+
   noakhaliAmountShow.innerText = noakaliInput;
 
   const noakhaliBalanceAmount = initialAmountBalance - noakaliInput;
@@ -145,7 +146,7 @@ document.getElementById('btn-history').addEventListener('click', function (event
  const btnDonation = document.getElementById('btn-donation');
 
 document.getElementById('btn-history').addEventListener('click', function () {
-  document.getElementById('footer-id').classList.add('mt-80')
+  document.getElementById('footer-id').classList.add('mt-80');
   document.getElementById('mainPage').classList.add('hidden');
   document.getElementById('history-list').classList.remove('hidden');
   historyBtn.classList.add(
@@ -155,29 +156,16 @@ document.getElementById('btn-history').addEventListener('click', function () {
      "text-gray-400",
 
    );
-    btnDonation.classList.remove("bg-btnColor","text-black")
+    btnDonation.classList.remove("bg-btnColor","text-black");
 });
 
 document.getElementById('btn-donation').addEventListener('click', function (event) {
   event.preventDefault()
-  document.getElementById('footer-id').classList.remove('mt-80')
+  document.getElementById('footer-id').classList.remove('mt-80');
   document.getElementById('mainPage').classList.remove('hidden');
   document.getElementById('history-list').classList.add('hidden');
-  btnDonation.classList.add("bg-btnColor","text-black",)
-  historyBtn.classList.remove("bg-btnColor","text-black")
+  btnDonation.classList.add("bg-btnColor","text-black",);
+  historyBtn.classList.remove("bg-btnColor","text-black");
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
