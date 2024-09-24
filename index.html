@@ -46,7 +46,7 @@
  <body class="lexend">  
    <header>
 
-        <!-- nav bar-start   -->
+        <!-- <-- nav bar-start   --> 
           <section id="nav-bar" class="bg-color1 fixed top-0 w-full z-50  duration-300 h-20 ">
           <nav  class="container mx-auto h-full">
             <div class="flex justify-between items-center h-full">
@@ -71,41 +71,39 @@
              </div>  
         </section>
       </header> 
-            <!-- nav bar-1 end  
+            <!-- <-- nav bar end   -->
+            <main>
 
-    <main >
-    <-- For Noakhali Donate --> 
+            <div id="mainPage" class="">
+              <section class="w-3/4 border rounded-2xl container mx-auto mt-60 ">
+               
+               <div class="hero p-3 ">
+                
+                 <div class=" hero-content flex-col lg:flex-row ">
+                   <img
+                     src="./assets/noakhali.png"
+                     class="max-w-sm rounded-lg shadow-2xl lg:h-80 w-full" />
+                   <div>  
+                   <div>
+                       <button id="noakhaliAmount" class="btn text-paraColor"><img src="./assets/coin.png" alt="">
+                         0 BDT </button>
+                     </div>
+                     <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
+                     <p class="py-6 text-sm text-paraColor">
+                       The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
+                     </p>
+                     <input id="noakhali-input" type="number" placeholder="Write Donation Amount" class=" text-sm input input-bordered w-full" required />
+                     <div>
+                       <br>
+                   <button id="nDonetBtn" class=" w-full btn bg-btnColor">Donate Now</button>
+                     </div>
+                   </div>
+                 </div>
+               </div> 
+       
+              </section>
 
-      <div id="mainPage" class="">
-       <section class="w-3/4 border rounded-2xl container mx-auto mt-60 ">
-        
-        <div class="hero p-3 ">
-         
-          <div class=" hero-content flex-col lg:flex-row ">
-            <img
-              src="./assets/noakhali.png"
-              class="max-w-sm rounded-lg shadow-2xl lg:h-80 w-full" />
-            <div>  
-            <div>
-                <button id="noakhaliAmount" class="btn text-paraColor"><img src="./assets/coin.png" alt="">
-                  0 BDT </button>
-              </div>
-              <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
-              <p class="py-6 text-sm text-paraColor">
-                The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
-              </p>
-              <input id="noakhali-input" type="number" placeholder="Write Donation Amount" class=" text-sm input input-bordered w-full" required />
-              <div>
-                <br>
-            <button id="nDonetBtn" class=" w-full btn bg-btnColor">Donate Now</button>
-              </div>
-            </div>
-          </div>
-        </div> 
-
-       </section>
-
-  <!-- Modal for Noakhali Amount -->
+  <!-- <-- Modal for Noakhali Amount --> 
   <input type="checkbox" id="noakhaliModal" class="modal-toggle" />
   <div class="modal">
     <div class="modal-box">
@@ -120,10 +118,9 @@
     </div>
   </div>
        
- <!-- for feni Donate -->
+ <!-- <-- for feni Donate --> 
 
         <section class="w-3/4 border rounded-2xl container mx-auto mt-8 ">
-        
           <div class="hero p-3 ">
            
             <div class="hero-content flex-col lg:flex-row">
@@ -149,8 +146,8 @@
             </div>
           </div>
          </section>
-
-<!-- Modal for feni Amount -->
+ 
+<!-- <-- Modal for feni Amount -->  
 <input type="checkbox" id="feniModal" class="modal-toggle" />
 <div class="modal">
   <div class="modal-box">
@@ -166,7 +163,7 @@
 </div>
 
 
-  <!-- for quat injured    -->
+  <!-- <-- for quat injured    --> 
         <section class="w-3/4 border rounded-2xl container mx-auto mt-8 ">
         
           <div class="hero p-3 ">
@@ -194,7 +191,7 @@
             </div>
           </div>
          </section>
-         <!-- Modal for quat injured Amount -->
+         <!-- <-- Modal for quat injured Amount --> 
   <input type="checkbox" id="injuredModal" class="modal-toggle" />
   <div class="modal">
     <div class="modal-box">
@@ -209,7 +206,7 @@
     </div>
   </div>
 </div>
-         <!-- history -->
+         <!-- <-- history --> 
 
          <div id="history-list" class="hidden  p-4 bg-gray-100 border rounded mt-56 container mx-auto">
           <h2 class= "text-2xl font-bold mb-2"></h2>
@@ -221,7 +218,7 @@
     <footer id="footer-id" class=" mt-10 bg-color1 h-20">
 
     </footer>
-<!-- js link  -->
+<!-- <-- js link  --> 
    
     <script src="./js/Assignment.js"></script>
   
