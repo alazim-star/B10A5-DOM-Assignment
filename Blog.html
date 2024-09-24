@@ -38,6 +38,7 @@
 
     <style> 
   .lexend {
+
   font-family: "Lexend", sans-serif;
 
 
@@ -49,13 +50,13 @@
     <title>Assignment-5 (DOM) Blog part </title>
  </head> 
  
- <body class="lexend">
+ <body class="lexend bg-purple-100 h-fit ">
     <header>
     <!-- nav section  -->
-    <section id="nav-bar" class="bg-color1   w-full  h-20 ">
+    <section id="nav-bar" class="bg-color1  h-20 ">
     <nav>
-        <nav  class="container mx-auto h-full">
-            <div class="flex justify-between items-center h-full">
+        <nav  class="container mx-auto">
+            <div class="flex justify-between  h-full p-3">
               <button id="home-id" class="w-24 btn bg-btnColor btn-active">Home
                 
               </button>
@@ -75,64 +76,66 @@
 </header>
 
 <main>
-    <section class="mt-10 container mx-auto ml-56" >
+    <section class="mt-10  lg:ml-40 ml-20 " >
     <div>
-        <h1 class="text-3xl font-extrabold">Important FAQ <i class="fa-regular fa-comment-dots text-8xl"></i> </h1>
+        <h1 class=" text-3xl font-extrabold">Important FAQ <i class="fa-regular fa-comment-dots text-8xl"></i> </h1>
     </div>
         
     
 </section>
 <!-- question section   -->
-<section class="container mx-auto w-2/3" >
-    <div class="collapse collapse-arrow bg-base-200">
+<section class="container mx-auto lg:ml-40 mt-5 w-2/3" >
+    <div class="collapse collapse-arrow bg-red-300">
         <input type="radio" name="my-accordion-2" checked="checked" />
-        <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+        <div class="font-bold collapse-title text-xl ">What is the Document Object Model (DOM)?</div>
         <div class="collapse-content">
           <p>The Document Object Model (DOM) is a programming interface that browsers provide to interact with and manipulate the structure of web documents.and It represents the structure of a document as a tree of objects, where each node in the tree corresponds to a part of the document.</p>
+          <img class="w-72 h-72" src="./assets/dom-example.png" alt="">
         </div>
       </div>
 
 
-    <div class="collapse collapse-arrow bg-base-200">
+    <div class="collapse collapse-arrow  bg-green-300">
         <input type="radio" name="my-accordion-2" checked="checked" />
-        <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+        <div class="collapse-title text-xl font-bold">How do you select an element from the DOM?</div>
         <div class="collapse-content">
           <p>Selecting elements from the DOM is a crucial part of manipulating web pages with JavaScript.
             here are some method to manipulate element.</p>
           <ul>
-            <li>getElementById</li>
-            <li>getElementsByClassName</li>
-            <li>getElementsByTagName</li>
-            <li>querySelector</li>
-            <li>querySelectorAll</li>
-            <li>children</li>
+            <li><i class="fa-solid fa-arrow-right"></i> getElementById</li>
+            <li><i class="fa-solid fa-arrow-right"></i> getElementsByClassName</li>
+            <li><i class="fa-solid fa-arrow-right"></i> getElementsByTagName</li>
+            <li><i class="fa-solid fa-arrow-right"></i> querySelector</li>
+            <li><i class="fa-solid fa-arrow-right"></i> querySelectorAll</li>
+            <li><i class="fa-solid fa-arrow-right"></i> children</li>
           
           </ul>
         </div>
       </div>
-      <div class="collapse collapse-arrow bg-base-200">
+      <div class="collapse collapse-arrow bg-blue-300">
         <input type="radio" name="my-accordion-2" />
-        <div class="collapse-title text-xl font-medium"> What is event delegation in the context of the DOM, and why is it useful?</div>
+        <div class="collapse-title text-xl font-bold"> What is event delegation in the context of the DOM, and why is it useful?</div>
         <div class="collapse-content">
           <p>Event delegation is a technique in JavaScript for handling events in a more efficient and flexible way, particularly when dealing with dynamically created elements.
           </p>
           <p>Here are some example:</p>
           <ul>
-            <li>Event Bubbling</li>
-            <li>Event Listener on Parent</li>
-            <li>Event Handling</li>
+            <li><i class="fa-solid fa-arrow-right"></i> Event Bubbling</li>
+            <li><i class="fa-solid fa-arrow-right"></i> Event Listener on Parent</li>
+            <li><i class="fa-solid fa-arrow-right"></i> Event Handling</li>
           </ul>
+          <img class="w-72 h-72" src="./assets/event.png" alt="">
         </div>
       </div>
-      <div class="collapse collapse-arrow bg-base-200">
+      <div class="collapse collapse-arrow bg-yellow-300">
         <input type="radio" name="my-accordion-2" />
-        <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+        <div class="collapse-title text-xl font-bold">How do you manipulate an element's attributes and styles using the DOM?</div>
         <div class="collapse-content">
           <p>By manipulating attributes and styles,website changed dynamically and behavior of web elements based on user interaction or other conditions.</p>
           <p>Here are some example:</p>
           <ul>
-            <li>Attributes : getAttribute, setAttribute, removeAttribute are use. </li>
-            <li>Styles : Using the style property for inline styles, getComputedStyle for computed styles, and classList for managing CSS classes.</li>
+            <li><i class="fa-solid fa-arrow-right"></i> Attributes : getAttribute, setAttribute, removeAttribute are use. </li>
+            <li><i class="fa-solid fa-arrow-right"></i> Styles : Using the style property for inline styles, getComputedStyle for computed styles, and classList for managing CSS classes.</li>
 
         
           </ul>
