@@ -18,8 +18,7 @@ window.addEventListener('scroll', function() {
   }
 });
 
-
-
+// common function
 
 function yourMainBalance(id) {
   return parseFloat(document.getElementById(id).innerText); 
@@ -32,7 +31,6 @@ document.getElementById('blog-id').addEventListener('click',function (event) {
   
 })
 
-
 // Noakhali Donate
 document.getElementById('nDonetBtn').addEventListener('click', function (event) {
   event.preventDefault();
@@ -41,7 +39,7 @@ document.getElementById('nDonetBtn').addEventListener('click', function (event) 
   
   const initialAmountBalance = yourMainBalance('initialAmount'); 
 
-  if (isNaN(noakaliInput) || noakaliInput <= 0) {
+  if (isNaN(noakaliInput) || noakaliInput <= 0) { 
       alert('Please enter a valid number');
       return;
   }
@@ -134,7 +132,6 @@ function historyHandle(value,text) {
   
 }
 
- 
   // Hide the main page content
 
 document.getElementById('btn-history').addEventListener('click', function (event) {
